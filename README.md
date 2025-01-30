@@ -20,19 +20,15 @@ To prosty system ekspercki wspierający użytkowników w wyborze odpowiedniego s
 1. **Zasady (reguły)**:
    1. Reguły opisują zależności między potrzebami użytkownika a rekomendowanymi kategoriami samochodów.
    1. Przykład:
-
-python
-
-Kopiuj
-
 (lambda f: f.get("family\_car") and f.get("large\_trunk"), "SUV lub kombi dla rodzin.")
+
 
 1. **Dopasowanie modeli**:
    1. Na podstawie zebranych rekomendacji program podaje konkretne modele samochodów z bazy.
 -----
 ` `**Struktura projektu**
 
-- car\_expert\_system.py: Główny plik programu, zawiera implementację systemu eksperckiego.
+- car\_expert\_system.py: Główny plik programu.
 - README.md: Plik dokumentacji projektu
 -----
 
